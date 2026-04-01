@@ -345,7 +345,7 @@ footer { background: var(--charcoal); color: white; padding: 60px 6% 30px; }
 
 @media(max-width:480px){
   .chat-window {
-    bottom: 20px; right: 8px; left: 8px; height: 75vh; max-height: 450px;
+    bottom: 40px; right: 8px; left: 8px; height: 75vh; max-height: 450px;
   }
   .hero-visual{display:block;}
   .chat-trigger { bottom: 16px; right: 16px; width: 48px; height: 48px; font-size: 1.3rem; }
