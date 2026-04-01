@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmileCraft Dental — Dr. Arjun Mehta</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <span>🦷 New Patients Welcome — <strong>Book your first consultation for ₹199 only!</strong> Limited slots available this month.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Sankalp<span> Dental </span> Clinic</div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Kolhapur's Trusted Dental Clinic</div>
+    <h1>Your smile deserves<br><em>expert care.</em></h1>
+    <p>Advanced dentistry with a gentle touch. From routine cleanings to full smile transformations — we're here to help you smile confidently.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Book Appointment →</a>
+      <a href="#services" class="btn-outline">Our Services</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">1,000+</div>
+        <div class="stat-label">Happy Patients</div>
+      </div>
+      <div>
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div>
+        <div class="stat-num">4.9★</div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-frame">
+      <img src="photos/2023-02-27 (2).webp" alt="Dr. Akshay Mane" />
+      <div class="doctor-info-overlay">
+        <h3>Dr. Akshay Mane</h3>
+        <p>BDS, MDS — Prosthodontics</p>
+      </div>
+    </div>
+    <!-- <div class="floating-card fc-1">
+      <div class="fc-title">Priya S. — just booked!</div>
+      <div class="fc-sub">Smile Makeover Consultation</div>
+      <div class="stars">★★★★★</div>
+    </div> -->
+    <!-- <div class="floating-card fc-2">
+      <div class="fc-2-icon">📅</div>
+      <div class="fc-2-text">
+        <div class="fc-title">Next slot open</div>
+        <div class="fc-sub" style="color:var(--sage-dark)">Tomorrow, 10:30 AM</div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-label">What We Offer</div>
+  <div style="display:grid;grid-template-columns:1fr;align-items:end;gap:20px;margin-bottom:0">
+    <div>
+      <h2 class="section-title">Complete care for your smile</h2>
+      <p class="section-sub">From your first check-up to a full cosmetic transformation, our clinic covers every aspect of your dental health.</p>
+    </div>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">🦷</div>
+      <h3>Dental Restoration</h3>
+      <p>Restore damaged or decayed teeth with durable, natural-looking fillings and restorations to maintain your smile's health and function.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">✨</div>
+      <h3>Straightening Teeth</h3>
+      <p>Correct misaligned teeth with modern orthodontic treatments for a confident, beautiful smile and improved oral health.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">👑</div>
+      <h3>Tooth Reshaping</h3>
+      <p>Enhance the shape, size, and appearance of your teeth through precise reshaping techniques for aesthetic improvements.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🔩</div>
+      <h3>Wisdom Tooth Extraction</h3>
+      <p>Safe and comfortable removal of wisdom teeth to prevent pain, infection, and alignment issues with expert surgical care.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">😁</div>
+      <h3>RCT (Root Canal)</h3>
+      <p>Advanced root canal therapy to save infected teeth, relieve pain, and restore functionality with painless procedures.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🛡️</div>
+      <h3>Therapy</h3>
+      <p>Comprehensive dental therapy including preventive care, cleanings, and treatments to maintain optimal oral health.</p>
+      <span class="arrow">→</span>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏥</div>
+      <h3>Oral Rehabilitation</h3>
+      <p>Full-mouth rehabilitation to restore oral function, aesthetics, and health through coordinated dental treatments.</p>
+      <span class="arrow">→</span>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-us" id="about">
+  <div class="why-left">
+    <h2>Why patients choose<br>SmileCraft</h2>
+    <p>We combine clinical excellence with genuine warmth. Our goal isn't just healthy teeth — it's a stress-free, pleasant experience every visit.</p>
+    <div class="why-feature">
+      <div class="why-feature-icon">🏥</div>
+      <div>
+        <h4>State-of-the-Art Equipment</h4>
+        <p>Digital X-rays, 3D scanning, intraoral cameras, and laser dentistry for precise, comfortable treatment.</p>
+      </div>
+    </div>
+    <div class="why-feature">
+      <div class="why-feature-icon">💉</div>
+      <div>
+        <h4>Pain-Free Dentistry</h4>
+        <p>Computer-controlled anaesthesia and gentle techniques so even anxious patients feel completely at ease.</p>
+      </div>
+    </div>
+    <div class="why-feature">
+      <div class="why-feature-icon">⏰</div>
+      <div>
+        <h4>Zero Wait Time Policy</h4>
+        <p>We respect your time. Appointments run on schedule, every time. Evening & Saturday slots available.</p>
+      </div>
+    </div>
+  </div>
+  <div class="tech-showcase">
+    <div class="tech-title">Our Technology</div>
+    <div class="tech-item"><div class="tech-dot"></div><span>Digital OPG & RVG X-Ray System</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>3D Intraoral Scanner (iTero)</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>Diode Laser for Gum Treatments</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>CEREC Same-Day Crowns</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>Air Abrasion (Drill-Free Fillings)</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>Ultrasonic Scalers & Piezo Surgery</span></div>
+    <div class="tech-item"><div class="tech-dot"></div><span>Sterilisation as per AERB norms</span></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="section-label">Patient Stories</div>
+  <h2 class="section-title">What our patients say</h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-text">"Had severe dental anxiety my whole life. Dr. Mehta and his team were so patient and understanding. Got my implants done — completely pain-free. I finally smile confidently!"</p>
+      <div class="t-author">
+        <div class="t-avatar">RK</div>
+        <div>
+          <div class="t-name">Rahul Kulkarni</div>
+          <div class="t-detail">Dental Implants • Verified Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-text">"The smile makeover results are absolutely stunning. Three veneers in one session, and I walked out looking like a completely different person. Best investment I've made!"</p>
+      <div class="t-author">
+        <div class="t-avatar">SA</div>
+        <div>
+          <div class="t-name">Sneha Agarwal</div>
+          <div class="t-detail">Smile Makeover • Verified Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-text">"I've been bringing my kids here for 4 years. The clinic is spotless, the staff is friendly with children, and I never have to wait more than 5 minutes. Highly recommend!"</p>
+      <div class="t-author">
+        <div class="t-avatar">PM</div>
+        <div>
+          <div class="t-name">Pooja Marathe</div>
+          <div class="t-detail">Family Dentistry • Verified Patient</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / BOOKING -->
+<section class="contact" id="contact">
+  <div class="contact-info">
+    <h2>Book an Appointment</h2>
+    <p>Fill the form or chat with our AI assistant for instant booking help. We'll confirm your slot within 30 minutes.</p>
+    <div class="contact-detail">
+      <div class="contact-icon">📍</div>
+      <div class="contact-text">
+        <h4>Clinic Address</h4>
+        <p>Front Of Saibaba Mandir, Hindtara Height, Main Road, Gargoti, Kolhapur-416209, Maharashtra</p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">📞</div>
+      <div class="contact-text">
+        <h4>Phone / WhatsApp</h4>
+        <p>07942693933</p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">🕐</div>
+      <div class="contact-text">
+        <h4>Clinic Hours</h4>
+        <p>Mon–Sat: 10 AM – 8 PM &nbsp;|&nbsp; Sun: 10 AM – 1 PM</p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">✉️</div>
+      <div class="contact-text">
+        <h4>Email</h4>
+        <p>hello@smilecraftdental.in</p>
+      </div>
+    </div>
+  </div>
+  <div class="booking-form">
+    <h3>Request Appointment</h3>
+    <div class="form-row">
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" placeholder="Rahul">
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" placeholder="Sharma">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="tel" placeholder="+91 98765 43210">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>Preferred Date</label>
+        <input type="date">
+      </div>
+    </div>
+      <div class="form-group">
+        <label>Preferred Time</label>
+        <select>
+          <option>10:00 AM</option>
+          <option>11:00 AM</option>
+          <option>12:00 PM</option>
+          <option>2:00 PM</option>
+          <option>4:00 PM</option>
+          <option>6:00 PM</option>
+        </select>
+      </div>
+    
+    <div class="form-group">
+      <label>Service Required</label>
+      <select>
+        <option>Dental Restoration</option>
+        <option>Straightening Teeth</option>
+        <option>Tooth Reshaping</option>
+        <option>Wisdom Tooth Extraction</option>
+        <option>RCT (Root Canal)</option>
+        <option>Therapy</option>
+        <option>Oral Rehabilitation</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Message (optional)</label>
+      <textarea placeholder="Tell us about your concern or any specific requirements..."></textarea>
+    </div>
+    <button class="btn-submit">Confirm Appointment Request →</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="logo">Sankalp <span>Dental</span> Clinic</span>
+      <p>Delivering exceptional dental care with compassion and cutting-edge technology since 2012. Your smile is our passion.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#">Dental Restoration</a>
+      <a href="#">Straightening Teeth</a>
+      <a href="#">Tooth Reshaping</a>
+      <a href="#">Wisdom Tooth Extraction</a>
+      <a href="#">RCT (Root Canal)</a>
+      <a href="#">Therapy</a>
+      <a href="#">Oral Rehabilitation</a>
+    </div>
+    <div class="footer-col">
+      <h4>Clinic</h4>
+      <a href="#">About Dr. Akshay Mane</a>
+      <a href="#">Our Team</a>
+      <a href="#">Technology</a>
+      <a href="#">Patient Reviews</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="#">WhatsApp Us</a>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Google Maps</a>
+      <a href="#">Book Online</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 SmileCraft Dental — Dr. Akshay Mane. All rights reserved.</p>
+    <p>Privacy Policy · Terms of Use</p>
+  </div>
+</footer>
+
+<!-- CHAT NOTIFICATION BUBBLE -->
+<div class="chat-notification" id="chatNotification" onclick="openChatFromNotification()">
+  <p>👋 Hi! Need help? Click to chat with us!</p>
+</div>
+
+<!-- CHATBOT TRIGGER -->
+<button class="chat-trigger" onclick="toggleChat()" id="chatBtn">
+  💬
+  <span class="chat-badge">1</span>
+</button>
+
+<!-- CHATBOT WINDOW -->
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header">
+    <div class="chat-header-top">
+      <div class="chat-bot-info">
+        <div class="bot-avatar">🤖</div>
+        <div>
+          <div class="bot-name">Smile Assistant</div>
+          <div class="bot-status"><span class="bot-online"></span>Online — replies instantly</div>
+        </div>
+      </div>
+      <button class="chat-close" onclick="toggleChat()">✕</button>
+    </div>
+    <div class="chat-chips">
+      <button class="chip" onclick="quickSend('Book an appointment')">📅 Book</button>
+      <button class="chip" onclick="quickSend('What are your timings?')">🕐 Hours</button>
+      <button class="chip" onclick="quickSend('Services & prices')">💰 Services</button>
+      <button class="chip" onclick="quickSend('Emergency dental help')">🚨 Emergency</button>
+    </div>
+  </div>
+
+  <div class="chat-messages" id="chatMessages">
+    <div class="msg bot">
+      <div class="msg-bubble">👋 Hi there! I'm the Dental Clinic assistant. I can help you book appointments, answer questions about our treatments (Dental Restoration, Straightening Teeth, Tooth Reshaping, Wisdom Tooth Extraction, RCT, Therapy, Oral Rehabilitation), or provide clinic information. How can I help?</div>
+      <div class="msg-time">Just now</div>
+      <div class="quick-replies">
+        <button class="qr-btn" onclick="quickSend('I want to book an appointment')">📅 Book Appointment</button>
+        <button class="qr-btn" onclick="quickSend('Tell me about RCT')">🦷 RCT Info</button>
+        <button class="qr-btn" onclick="quickSend('Clinic address?')">📍 Location</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-input-area">
+    <textarea class="chat-input" id="chatInput" placeholder="Type your message..." rows="1" onkeydown="handleEnter(event)"></textarea>
+    <button class="chat-send" onclick="sendMessage()">➤</button>
+  </div>
+  <div class="powered">Powered by AI · Sankalp Dental Clinic © 2025</div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
+
