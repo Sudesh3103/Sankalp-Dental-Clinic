@@ -440,6 +440,11 @@ window.addEventListener('load', () => {
     const notif = document.getElementById('chatNotification');
     if (notif) notif.style.display = 'block';
   }, 1000);
+  // Set minimum date for appointment form to today
+  const dateInput = document.getElementById('appointment-date');
+  if (dateInput) {
+    dateInput.min = new Date().toISOString().split('T')[0];
+  }
 });
 
 function getTime() {
